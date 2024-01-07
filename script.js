@@ -91,3 +91,22 @@ const city=()=>{
     $('body').toggleClass('msb-x');
   });
 }());
+
+//!publish page
+
+function pbnext1() {
+  let inputs = document.querySelectorAll('.form-control');
+      let allFilled = true;
+
+      inputs.forEach((input) => {
+        if (input.value === '') {
+          allFilled = false;
+        }
+      });
+
+      if (allFilled) {
+        window.location.href = "publishnext1.html";
+      } else {
+        alert('Please fill in all fields.');
+      }// Make sure to include the file extension (.html)
+};
