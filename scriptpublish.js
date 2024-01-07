@@ -23,6 +23,16 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+function pbnext2() {
+    let stopsInput = document.getElementById("stopInput");
+    let stopsList = document.getElementById("stopsList");
+
+    if (stopsInput.value.trim() !== "" || stopsList.children.length > 0) {
+        window.location.href = "publishnext2.html";
+    } else {
+        alert("Please fill in the stops");
+    }
+}
 function isNumber(evt) {
     let charCode = (evt.which) ? evt.which : evt.keyCode;
     if ((charCode != 46 || evt.target.value.indexOf('.') !== -1) && // Check if the character is a dot and there is no existing dot in the input

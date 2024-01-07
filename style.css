@@ -500,18 +500,18 @@ margin-left: 10%;
   margin-top: 100px;
   margin-left: 100px;
 } */
-/* #pbnextbtn{
+#pbnextbtn{
   width: 100%;
   height: 100%;
   background-color: #0082e6;
   border-radius: 20px !important;
-} */
+}
 .form-container {
   
-  width: 500px;
-  height: auto;
+  width: 100%;
+  height: 100%;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 8px;
   background-color: #f5f5f5;
 }
@@ -550,7 +550,7 @@ margin-left: 10%;
 #stopsList li{
 margin-top: 5px;
 }
-.logopbimg{
+/* .logopbimg{
 height: 200px;
 border-radius: 50%;
 margin-top: 10px;
@@ -569,17 +569,30 @@ color: #850887;
 .logopb{
 display: flex;
 align-items: center;
-}
+} */
+/* .form-container{
+  background-color: #e7e1e1;
+} */
 .pbbox{
 display: flex;
-justify-content: center;
-align-items: center;
+justify-content: center ;
+align-items: center ;
 margin-top: 50px;
 }
 .pbtext{
 text-align: center;
-font-weight: 1000;
-margin-top: 80px;
+font-weight: 600;
+position:absolute;
+margin-top: 20%;
+margin-left:30%;
+
+
+}
+@media (max-width: 538px){
+  .pbtext{
+  margin-top: 50%;
+  margin-left: 0;
+  }
 }
 #appt{
 width: 35%;
@@ -591,7 +604,7 @@ padding: 2%;
 border: 2px solid black;
 
 }
-.timediv{
+/* .timediv{
 display: flex;
 font-size: 50px;
 align-items: center;
@@ -599,7 +612,7 @@ justify-content: center;
 margin-top: 20px;
 color: #000000;
 
-}
+} */
 .personpricediv{
 display: flex;
 align-items: center;
