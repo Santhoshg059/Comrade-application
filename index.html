@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comrade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <div class="fbox">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-button" onclick="login()">Log In</button>
+                <button type="button" class="toggle-button" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png">
+            </div>
+            <form id="login" class="input-details">
+                <input type="text" id="UserIdl" class="input-field" placeholder="User Id" required>
+                <input type="text" id="passwordl" class="input-field" placeholder="Enter the Password" required>
+                <input type="checkbox" id="agreel" class="chck-box"><span>Remember Password</span>
+                <button type="submit" id="submitl" onclick="getData()" class="sbt-btn">Log in</button>
+            </form>
+            <form id="register" class="input-details">
+                <input type="text" id="UserIdr" class="input-field" placeholder="User Id" required>
+                <input type="email" id="emailr" class="input-field" placeholder="Email Id" required>
+                <input type="number" id="numberr" class="input-field" placeholder="Enter PhoneNumber" required>
+                <input type="text" id="passwordr" class="input-field" placeholder="Enter the Password" required>
+                <input type="checkbox" id="agreer" class="chck-box"><span>Agree to the terms and conditions</span>
+                <button type="submit" id="submitr" onclick="save()" class="sbt-btn">Register</button>
+
+            </form>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

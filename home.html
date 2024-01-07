@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comrade-Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://kit.fontawesome.com/14a34afda5.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="homebody">
+  <div id="headhome">
+    <nav class="topnav">
+      <input type="checkbox" id="check">
+      <label for="check" class="chckbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <img class="comradeimg" src="./images/Comrade.png" />
+      <label class="comradename">COMRADE</label>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Publish Ride</a></li>
+        <li><a href="#">LogOut</a></li>
+        <li>
+          <a href="#">Profile
+            <img class="profileimg" src="https://cdn1.iconfinder.com/data/icons/avatar-2-2/512/Programmer-512.png" alt="Profile Image" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="mdiv">
+    <div class="picturediv">
+      
+      <div class="input-group">
+        <input type="text" class="form-control" id="from" placeholder="From">
+        <input type="text" class="form-control" id="To" placeholder="To">
+        <input type="date" class="form-control" id="datepicker" placeholder="Date">
+        <input type="number" class="form-control" id="personCount" min="1" placeholder="Enter count">
+        <button type="submit" class="btn btn-primary"><b>Search Ride</b></button>
+      </div>
+    </div>
+    <!-- <div class="ldiv">
+      <div class="container mt-4">
+        <h1>Ride Search</h1>
+        <form>
+          <div class="form-group">
+            <label for="startLocation">Starting from:</label>
+            <input type="text" class="form-control" id="startLocation" placeholder="Enter starting location">
+          </div>
+          <div class="form-group">
+            <label for="endLocation">Going to:</label>
+            <input type="text" class="form-control" id="endLocation" placeholder="Enter destination">
+          </div>
+          <div class="form-group">
+            <label for="datepicker">Select date:</label>
+            <input type="date" class="form-control" id="datepicker">
+          </div>
+          <div class="form-group">
+            <label for="personCount">Number of persons:</label>
+            <input type="number" class="form-control" id="personCount" min="1" placeholder="Enter count">
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Next</button>
+        </form>
+      </div>
+    </div> -->
+ <div class="seconddiv">
+  <div class="card-group">
+    <div class="card" >
+      <img src="images/coins2" class="homeimg" class="card-img-top" alt="coins">
+      <div class="card-body">
+        <h5 class="card-title"><b>Money-Saving Strategies for Transportation</b></h5>
+        <p class="card-text">Booking transportation in advance often leads to better deals. This applies to flights, trains, and sometimes even ride-hailing services.</p>
+        
+      </div>
+    </div>
+    <div id="card1" class="card">
+      <img src="./images/homecontactimg.png" class="homeimg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Secure, Seamless Booking</b></h5>
+        <p class="card-text">We've designed a user-friendly platform that prioritizes your safety. From profile verifications to secure transactions, every step of your journey with us is carefully crafted to provide a seamless and secure booking experience.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./images/handimage.png" class="homeimg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>Effortless Navigation</b></h5>
+        <p class="card-text">Navigate through our intuitive interface effortlessly. Scroll through options, click to explore destinations, and tap to select your preferred travel arrangements. It's that easy to embark on your next adventure!</p>
+       
+      </div>
+    </div>
+  </div>
+ </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <footer class="bg-body-tertiary text-center">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+        data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <!-- Github -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #333333;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-body" href="https://mdbootstrap.com/">Comrade.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+</html>
